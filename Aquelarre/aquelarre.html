@@ -73,7 +73,7 @@
                                                         <td><input name="attr_fue" type="number" /></td>
                                                         <td style="font-size:1.2em"><strong data-i18n="AGIlity">AGI</strong></td>
                                                         <td><input name="attr_agi" type="number" /></td>
-                                                        <td style="font-size:1.2em"><strong data-i18n="STAmina">HAB</strong></td>
+                                                        <td style="font-size:1.2em"><strong data-i18n="HABilidad">HAB</strong></td>
                                                         <td><input name="attr_hab" type="number" /></td>
                                                     </tr>
                                                     <tr>
@@ -364,7 +364,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-artesania" /></td>
-                    <td><span data-i18n="artisanry">Artesanía</span> (<span data-i18n="stamina-short">HAB</span>)</td>
+                    <td><span data-i18n="artisanry">Artesanía</span> (<span data-i18n="habilidad-short">HAB</span>)</td>
                     <td><input type="number" name="attr_artesania" /></td>
                     <td><button type="roll" name="roll_artesania" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{artisanry}}} {{Valor=@{artesania}}} {{Resultado=[[1d100cs<[[round(@{artesania}*0.05)]]cf>96]]}}" />
                     </td>
@@ -428,7 +428,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-conducir" /></td>
-                    <td><span data-i18n="driving">Conducir Carro</span> (<span data-i18n="stamina-short">HAB</span>)
+                    <td><span data-i18n="driving">Conducir Carro</span> (<span data-i18n="habilidad-short">HAB</span>)
                     </td>
                     <td><input type="number" name="attr_conducir" /></td>
                     <td><button type="roll" name="roll_conducir" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{driving}}} {{Valor=@{conducir}}} {{Resultado=[[1d100cs<[[round(@{conducir}*0.05)]]cf>96]]}}" />
@@ -450,28 +450,28 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Forzar_Mecanismos" /></td>
-                    <td><span data-i18n="forcing-mechanisms">Forzar Mecanismos</span> (<span data-i18n="stamina-short">HAB</span>) </td>
+                    <td><span data-i18n="forcing-mechanisms">Forzar Mecanismos</span> (<span data-i18n="habilidad-short">HAB</span>) </td>
                     <td><input type="number" name="attr_Forzar_Mecanismos" /></td>
                     <td><button type="roll" name="roll_Forzar_Mecanismos" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{forcing-mechanisms}}} {{Valor=@{Forzar_Mecanismos}}} {{Resultado=[[1d100cs<[[round(@{Forzar_Mecanismos}*0.05)]]cf>96]]}}" />
                     </td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Juego" /></td>
-                    <td><span data-i18n="gaming">Juego</span> (<span data-i18n="stamina-short">HAB</span>)</td>
+                    <td><span data-i18n="gaming">Juego</span> (<span data-i18n="habilidad-short">HAB</span>)</td>
                     <td><input type="number" name="attr_Juego" /></td>
                     <td><button type="roll" name="roll_Juego" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{gaming}}} {{Valor=@{Juego}}} {{Resultado=[[1d100cs<[[round(@{Juego}*0.05)]]cf>96]]}}" />
                     </td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Sanar" /></td>
-                    <td><span data-i18n="healing">Sanar</span> (<span data-i18n="stamina-short">HAB</span>)</td>
+                    <td><span data-i18n="healing">Sanar</span> (<span data-i18n="habilidad-short">HAB</span>)</td>
                     <td><input type="number" name="attr_Sanar" /></td>
                     <td><button type="roll" name="roll_Sanar" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{healing}}} {{Valor=@{Sanar}}} {{Resultado=[[1d100cs<[[round(@{Sanar}*0.05)]]cf>96]]}}" />
                     </td>
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Ocultar" /></td>
-                    <td><span data-i18n="hiding">Ocultar</span> (<span data-i18n="stamina-short">HAB</span>) </td>
+                    <td><span data-i18n="hiding">Ocultar</span> (<span data-i18n="habilidad-short">HAB</span>) </td>
                     <td><input type="number" name="attr_Ocultar" /></td>
                     <td><button type="roll" name="roll_Ocultar" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{hiding}}} {{Valor=@{Ocultar}}} {{Resultado=[[1d100cs<[[round(@{Ocultar}*0.05)]]cf>96]]}}" />
                     </td>
@@ -565,7 +565,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Navegar" /></td>
-                    <td><span data-i18n="navigation">Navegar</span> (<span data-i18n="stamina-short">HAB</span>) </td>
+                    <td><span data-i18n="navigation">Navegar</span> (<span data-i18n="habilidad-short">HAB</span>) </td>
                     <td><input type="number" name="attr_Navegar" /></td>
                     <td><button type="roll" name="roll_Navegar" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{navigation}}} {{Valor=@{Navegar}}} {{Resultado=[[1d100cs<[[round(@{Navegar}*0.05)]]cf>96]]}}" />
                     </td>
@@ -613,7 +613,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Escamotear" /></td>
-                    <td><span data-i18n="sleight-of-hand">Escamotear</span> (<span data-i18n="stamina-short">HAB</span>)</td>
+                    <td><span data-i18n="sleight-of-hand">Escamotear</span> (<span data-i18n="habilidad-short">HAB</span>)</td>
                     <td><input type="number" name="attr_Escamotear" /></td>
                     <td><button type="roll" name="roll_Escamotear" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{sleight-of-hand}}} {{Valor=@{Escamotear}}} {{Resultado=[[1d100cs<[[round(@{Escamotear}*0.05)]]cf>96]]}}" />
                     </td>
@@ -665,7 +665,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Tormento" /></td>
-                    <td><span data-i18n="torture">Tormento</span> (<span data-i18n="stamina-short">HAB</span>) </td>
+                    <td><span data-i18n="torture">Tormento</span> (<span data-i18n="habilidad-short">HAB</span>) </td>
                     <td><input type="number" name="attr_Tormento" /></td>
                     <td><button type="roll" name="roll_Tormento" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{torture}}} {{Valor=@{Tormento}}} {{Resultado=[[1d100cs<[[round(@{Tormento}*0.05)]]cf>96]]}}" /></td>
                 </tr>
@@ -744,7 +744,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Cuchillos" /></td>
-                    <td><span data-i18n="knives">Cuchillos</span> (<span data-i18n="stamina-short">HAB</span>) </td>
+                    <td><span data-i18n="knives">Cuchillos</span> (<span data-i18n="habilidad-short">HAB</span>) </td>
                     <td><input type="number" name="attr_Cuchillos" /></td>
                     <td><button type="roll" name="roll_Cuchillos" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{knives}}} {{Valor=@{Cuchillos}}} {{Resultado=[[1d100cs<[[round(@{Cuchillos}*0.05)]]cf>96]]}}" /></td>
                 </tr>
@@ -756,7 +756,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Escudos" /></td>
-                    <td><span data-i18n="shields">Escudos</span> (<span data-i18n="stamina-short">HAB</span>) </td>
+                    <td><span data-i18n="shields">Escudos</span> (<span data-i18n="habilidad-short">HAB</span>) </td>
                     <td><input type="number" name="attr_Escudos" /></td>
                     <td><button type="roll" name="roll_Escudos" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{shields}}} {{Valor=@{Escudos}}} {{Resultado=[[1d100cs<[[round(@{Escudos}*0.05)]]cf>96]]}}" /></td>
                 </tr>
@@ -774,7 +774,7 @@
                 </tr>
                 <tr>
                     <td><input type="checkbox" name="attr_Success-Espadas" /></td>
-                    <td><span data-i18n="swords">Espadas</span> (<span data-i18n="stamina-short">HAB</span>) </td>
+                    <td><span data-i18n="swords">Espadas</span> (<span data-i18n="habilidad-short">HAB</span>) </td>
                     <td><input type="number" name="attr_Espadas" /></td>
                     <td><button type="roll" name="roll_Espadas" value="&{template:aquelarre} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{name=^{swords}}} {{Valor=@{Espadas}}} {{Resultado=[[1d100cs<[[round(@{Espadas}*0.05)]]cf>96]]}}" /></td>
                 </tr>
